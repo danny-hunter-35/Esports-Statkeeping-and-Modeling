@@ -11,7 +11,7 @@ In the *Server Accoloade Race* sheet of Pandamonium Team Stats, this command is 
 
 ## Rlcs stats and projections
 **Rlcs stats and projections** was during the pandemic when daily fantasy sports sites such as draftkings did not have much content in the way of real sports, and had to find a new market in esports. Figuring I could capatalize on those that did not have as much knowledge in the esport of pro Rocket League, I compiled data from a secret source into this spreadsheet and used some "basic" formulas to compute projections based on the given score system. Perhaps the most organized of these sheets is *EU Spring series projections* where you can see the teams, their players, the stats, projections, and the teams they are playing against. 
-> =((10*C3)+(5*D3)+(5*E3)+(F3*3)+(G3/100))
+> =((10\*C3)+(5\*D3)+(5\*E3)+(F3\*3)+(G3/100))
 
 This command in *H3* is a simple projection based off of the players statistical averages and the given scoring system for the fantasy game
 > =((10*((($C$2+M3)/2)*(C3/$C$2)))+(5*((($D$2+N3)/2)*(D3/$D$2)))+(5*((($E$2+O3)/2)*(E3/$E$2)))+(3*((($F$2+P3)/2)*(F3/$F$2)))+(((($G$2+Q3)/2)*(G3/$G$2))/100))
